@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    background-color: #FFFFFF;
+    
+}
+
+.header {
+
+}
+
+.logo {
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.2;
+color: #212121 ;
+text-decoration: none;
+}
+
+.logo-part {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.navigation-link, 
+.contact-link {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    text-decoration: none;
+    color:#212121;
+}
+
+.navigation-link:hover, 
+.navigation-link:focus,
+.contact-link:hover {
+    color:#2196F3;
+}
+
+ .contact-link {
+     color: #757575;
+ }
