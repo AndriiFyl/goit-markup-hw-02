@@ -149,3 +149,21 @@ text-decoration: none;
 }
 
 /* Страница Портфолио */
+.btn-port {
+width: 128px;
+height: 38px;
+background: #F5F4FA;
+font-style: normal;
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.03em;
+cursor: pointer;
+}
+
+.btn-port:hover,
+.btn-port:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    
+} 
+
