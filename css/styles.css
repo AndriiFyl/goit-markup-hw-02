@@ -4,13 +4,15 @@ body {
     background-color: #FFFFFF;  
 }
 
-.logo-header {
-font-family: 'Raleway', sans-serif;
-font-size: 26px;
-line-height: 1.2;
-color: #212121;
-text-decoration: none;
+/* Header */
 
+.logo-site {
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #212121;
+    text-decoration: none;
 }
 
 .logo-part {
@@ -21,7 +23,7 @@ text-decoration: none;
     list-style: none;
 }
 
-.navigation-link, 
+.link-nav, 
 .contact-link {
     font-size: 14px;
     line-height: 1.14;
@@ -31,9 +33,12 @@ text-decoration: none;
     color:#212121;
 }
 
-.navigation-link:hover, 
-.navigation-link:focus,
-.link-contacts:hover {
+.link-nav:hover, 
+.link-nav:focus,
+.link-contacts:hover,
+.link-adress:hover,
+.link-adress:focus
+ {
     color:#2196F3;
 }
 
@@ -44,6 +49,8 @@ text-decoration: none;
     letter-spacing: 0.02em;
      color: #757575;
  }
+
+ /* Секция герой */
 
  .hero-section {
      width:1600px;
@@ -72,7 +79,10 @@ text-decoration: none;
     cursor: pointer;
  }
 
- .heading-values {
+
+ /* Наши достоинства */
+
+ .title-values {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -81,19 +91,15 @@ text-decoration: none;
     color: #212121;
  }
 
- .description-values {
+ .text-values {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
  }
 
- .section-team {
-     background-color: #F5F4FA;
- }
 
-
- 
+ /* Чем мы занимаемся */
 
  .heading-section {
     font-weight: 700;
@@ -102,6 +108,11 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: #212121;
  }
+
+ /* Наша команда */
+.team-section {
+    background-color: #F5F4FA;
+}
 
  .title {
     font-weight: 500;
@@ -115,6 +126,7 @@ text-decoration: none;
     color: #757575;
  }
 
+ /* Footer */
  .footer {
      width: 1600px;
      height: 252px;
@@ -128,6 +140,8 @@ text-decoration: none;
     color: #FFFFFF;
     text-decoration: none;
 }
+
+/* Контакты */
 
 .adress {
     font-style: normal;
@@ -154,7 +168,7 @@ width: 128px;
 height: 38px;
 background: #F5F4FA;
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 line-height: 1.6;
 letter-spacing: 0.03em;
 cursor: pointer;
@@ -163,7 +177,27 @@ cursor: pointer;
 .btn-port:hover,
 .btn-port:focus {
     background-color: #2196F3;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
 } 
+
+.link-works {
+    text-decoration: none;
+}
+
+.heding-works {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.text-works {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
