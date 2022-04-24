@@ -1,7 +1,12 @@
+:root {
+    --primary-text-color: #212121;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
-    background-color: #FFFFFF;  
+    color:#212121;
+    background-color:#FFFFFF;  
 }
 
 /* Header */
@@ -11,20 +16,19 @@ body {
     sans-serif;
     font-size: 26px;
     line-height: 1.2;
-    color: #212121;
+    color:#212121;
     text-decoration: none;
 }
 
 .logo-part {
-    color: #2196F3;
+    color:#2196F3;
 }
 
 .list {
     list-style: none;
 }
 
-.link-nav, 
-.contact-link {
+.link-nav  {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -36,6 +40,7 @@ body {
 .link-nav:hover, 
 .link-nav:focus,
 .link-contacts:hover,
+.link-contacts:focus,
 .link-adress:hover,
 .link-adress:focus
  {
@@ -47,7 +52,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-     color: #757575;
+     color:#757575;
  }
 
  /* Секция герой */
@@ -55,7 +60,7 @@ body {
  .hero-section {
      width:1600px;
      height: 600px;
-     background-color: #2F303A;
+     background-color:#2F303A;
  }
 
  .hero {
@@ -65,7 +70,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color:#FFFFFF;
  }
 
  .hero-button {
@@ -162,6 +167,7 @@ body {
     text-decoration: none;
 }
 
+
 /* Страница Портфолио */
 .btn-port {
 width: 128px;
@@ -177,7 +183,7 @@ cursor: pointer;
 .btn-port:hover,
 .btn-port:focus {
     background-color: #2196F3;
-    color: #FFFFFF;    
+    color: #FFFFFF;   
 } 
 
 .link-works {
