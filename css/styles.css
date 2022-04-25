@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);  
 }
@@ -79,6 +79,8 @@ body {
 
  .hero-button {
     background: #2196F3;
+    width: 200px;
+    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
@@ -140,7 +142,7 @@ body {
  .footer {
      width: 1600px;
      height: 252px;
-     background-color: var(--secondary-background-colorcolor);
+     background-color: var(--secondary-background-color);
  }
 
 .logo-footer {
@@ -201,7 +203,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color:var(--primary-text-color);
+    color:#212121;
 }
 
 .text-works {
@@ -209,6 +211,6 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color:#757575;
 }
 
