@@ -1,12 +1,16 @@
 :root {
     --primary-text-color: #212121;
-
+    --secondary-text-color:#757575;
+    --accent-text-color:#2196F3;
+    --primary-background-color:#FFFFFF;
+    --secondary-background-color:#2F303A;
+   
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color:#212121;
-    background-color:#FFFFFF;  
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);  
 }
 
 /* Header */
@@ -16,7 +20,7 @@ body {
     sans-serif;
     font-size: 26px;
     line-height: 1.2;
-    color:#212121;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
@@ -34,7 +38,7 @@ body {
     letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
-    color:#212121;
+    color:var(--primary-text-color);
 }
 
 .link-nav:hover, 
@@ -44,7 +48,7 @@ body {
 .link-adress:hover,
 .link-adress:focus
  {
-    color:#2196F3;
+    color:var(--accent-text-color)
 }
 
  .link-contacts {
@@ -52,7 +56,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-     color:#757575;
+     color:var(--secondary-text-color)
  }
 
  /* Секция герой */
@@ -60,10 +64,10 @@ body {
  .hero-section {
      width:1600px;
      height: 600px;
-     background-color:#2F303A;
+     background-color: var(--secondary-background-color);
  }
 
- .hero {
+ .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,14 +97,14 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-text-color);
  }
 
  .text-values {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
  }
 
 
@@ -111,7 +115,7 @@ body {
     font-size: 36px;
     line-height: 1,17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
  }
 
  /* Наша команда */
@@ -123,19 +127,20 @@ body {
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em; 
+    color: var(--primary-text-color);
  }
 
  .title-info {
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
  }
 
  /* Footer */
  .footer {
      width: 1600px;
      height: 252px;
-     background-color: #2F303A;
+     background-color: var(--secondary-background-colorcolor);
  }
 
 .logo-footer {
@@ -196,7 +201,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color:var(--primary-text-color);
 }
 
 .text-works {
@@ -204,6 +209,6 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
