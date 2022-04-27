@@ -41,7 +41,7 @@ body {
     color:var(--primary-text-color);
 }
 
-.list .link-nav.curent {
+.list .link-nav.current {
     color:#2196F3
 }
 
